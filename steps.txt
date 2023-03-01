@@ -1,0 +1,26 @@
+1. keep the files in Mithra-Web
+		/var/www/html/Mithra-Web
+		
+2. Keep the Desktop files in 
+		/home/ubuntu
+		
+3. keep the 000-default conf in
+		/etc/apache2/sites-enabled/
+		
+   write inside ports.conf file 
+   		Listen 4000
+   		/etc/apache2/ports.conf
+		
+4. keep the ssl files in 
+		/etc/pki/
+		
+5. check configurations locations in 
+		main.wsgi, main.py, 000-default-config 
+		
+		
+6. error
+		/var/log/apache2/
+		cat tail 50 error.log
+		
+7. service
+		sudo service apache2 restart
